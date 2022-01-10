@@ -1,0 +1,28 @@
+:root {
+    --dark: #1e2126;
+    --dark-x: #0e0f11;
+    --dark-light: #212225;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+.gradient {
+    background: #ffe259;
+    background: linear-gradient(to right, var(--dark), var(--dark-light));
+  }
+
+.bg-dark { 
+    background: var(--dark-x) !important; 
+    background-image: url(../img/bg-1.jpg) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.bg-input {
+    background: linear-gradient(to right, #87021a, #e03947);
+}
+ 
